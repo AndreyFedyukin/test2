@@ -6,7 +6,7 @@ const playButton = videoPlayer.querySelector(".play-button");
 playButton.addEventListener("click", (e) => {
   if (video.paused) {
     video.play();
-    e.target.textContent = "⏸";
+    e.target.textContent = "×";
     video.requestFullscreen();
   } else {
     video.pause();
@@ -14,5 +14,5 @@ playButton.addEventListener("click", (e) => {
   }
 });
 
-// ▶ ⏯ ⏹ ⏸
+// ▶ ⏯ ⏹ ⏸ ×
 // videoPlayer.style.height = "100vh";

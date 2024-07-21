@@ -2,13 +2,16 @@ body {
   background-color: gray;
 }
 
-.video-player {
+.video-player,
+.video-player2 {
   max-width: 750px;
   position: relative;
   overflow: hidden;
+  margin: 0 auto;
 }
 
-.video {
+.video,
+.video2 {
   width: 100%;
   object-fit: cover;
 }
@@ -21,20 +24,18 @@ body {
 }
 
 .play-button {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
+  font-size: 19px;
   color: lime;
   background-color: black;
   border: none;
+  cursor: pointer;
 
   &:focus {
     outline: none;
   }
-}
-
-.video2 {
-  width: 100%;
-  max-width: 750px;
-  overflow: hidden;
-  object-fit: cover;
+  &:hover {
+    color: white;
+  }
 }
