@@ -7,7 +7,7 @@ playButton.addEventListener("click", (e) => {
   if (video.paused) {
     video.play();
     e.target.textContent = "⏸";
-    video.requestFullscreen();
+    // video.requestFullscreen();
   } else {
     video.pause();
     e.target.textContent = "▶";
