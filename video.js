@@ -2,7 +2,7 @@ const videoPlayer = document.querySelector(".video-player");
 const video = videoPlayer.querySelector(".video");
 const playButton = videoPlayer.querySelector(".play-button");
 
-// Play and Pause button
+// button
 playButton.addEventListener("click", (e) => {
   if (video.paused) {
     video.play();
