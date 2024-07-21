@@ -1,0 +1,32 @@
+body {
+  background-color: gray;
+}
+
+.video-player {
+  max-width: 750px;
+  position: relative;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+}
+
+.player-controls {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  transition: 0.3s;
+}
+
+.play-button {
+  width: 24px;
+  height: 24px;
+  color: red;
+  background-color: black;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+}
