@@ -1,3 +1,5 @@
+// кастомный видео плеер **************************
+// значки для плеера ▶ ⏯ ⏹ ⏸ × ***
 const videoPlayer = document.querySelector(".video-player");
 const video = videoPlayer.querySelector(".video");
 const playButton = videoPlayer.querySelector(".play-button");
@@ -14,9 +16,7 @@ playButton.addEventListener("click", (e) => {
   }
 });
 
-// значки для плеера ▶ ⏯ ⏹ ⏸ ×
-
-// убираем контроллер до клика по видео
+// убираем контроллер до клика по видео **************************
 document.addEventListener("DOMContentLoaded", function () {
   let videos = document.getElementsByClassName("video2"); // получаем видео
   videos = [].slice.call(videos); // преобразуем в массив

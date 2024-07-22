@@ -9,20 +9,32 @@
 </head>
 
 <body>
-  <div class="video-player">
-    <video class="video" width="750" poster="poster.png" preload="metadata" loop playsinline>
-      <source src="sea-1.mp4" type="video/mp4">
-    </video>
+  <div class="wrapper">
 
-    <div class="player-controls">
-      <button class="play-button" title="Play">►</button>
+    <p>Кастомизированный плеер</p>
+    <div class="video-player">
+      <video class="video" width="500" poster="poster.png" preload="metadata" loop playsinline>
+        <source src="sea-1.mp4" type="video/mp4">
+      </video>
+
+      <div class="player-controls">
+        <button class="play-button" title="Play">►</button>
+      </div>
     </div>
-  </div>
 
-  <div class="video-player2">
-    <video class="video2" width="750" poster="poster.png" preload="metadata" playsinline>
-      <source src="sea-1.mp4" type="video/mp4">
-    </video>
+    <p>Скрытый плеер до взаимодействия с видео</p>
+    <div class="video-player2">
+      <video class="video2" width="500" poster="poster.png" preload="metadata" playsinline>
+        <source src="sea-1.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <p>Стандартный плеер</p>
+    <div class="video-player3">
+      <video class="video3" width="500" poster="poster.png" preload="metadata" controls loop playsinline>
+        <source src="sea-1.mp4" type="video/mp4">
+      </video>
+    </div>
   </div>
 
   <script src="main.js"></script>
