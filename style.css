@@ -1,12 +1,14 @@
 body {
   background-color: gray;
+  margin: 0;
 }
 
 .video-player,
 .video-player2 {
-  max-width: 750px;
+  max-width: 500px;
   position: relative;
   overflow: hidden;
+  border-radius: 1rem;
   margin: 0 auto;
 }
 
@@ -18,18 +20,19 @@ body {
 
 .player-controls {
   position: absolute;
-  top: 5px;
+  top: 10px;
   right: 10px;
   transition: 0.3s;
 }
 
 .play-button {
-  width: 28px;
-  height: 28px;
-  font-size: 19px;
-  color: lime;
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  color: #d6ef0e;
   background-color: black;
   border: none;
+  border-radius: 7px;
   cursor: pointer;
 
   &:focus {

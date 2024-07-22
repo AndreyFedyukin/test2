@@ -10,7 +10,8 @@
 
 <body>
   <div class="video-player">
-    <video src="sea-1.mp4" poster="poster.png" class="video" loop>
+    <video class="video" width="750" poster="poster.png" preload="metadata" loop playsinline>
+      <source src="sea-1.mp4" type="video/mp4">
     </video>
 
     <div class="player-controls">
@@ -19,11 +20,12 @@
   </div>
 
   <div class="video-player2">
-    <video src="sea-1.mp4" poster="poster.png" class="video2" controls loop>
+    <video class="video2" width="750" poster="poster.png" preload="metadata" playsinline>
+      <source src="sea-1.mp4" type="video/mp4">
     </video>
   </div>
 
-  <script src="video.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
